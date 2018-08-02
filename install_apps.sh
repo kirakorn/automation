@@ -9,6 +9,7 @@ common_apps=(
 # Personal apps
 personal_apps=(
   iterm2
+  jetbrains-toolbox
   slack
   sourcetree
   visual-studio-code
