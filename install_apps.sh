@@ -1,18 +1,24 @@
-# List of apps
-apps=(
+# Common apps
+common_apps=(
   dropbox
   firefox
   google-chrome
+  spotify
+)
+
+# Personal apps
+personal_apps=(
   iterm2
   slack
   sourcetree
-  shimo
-  spotify
   visual-studio-code
 )
 
-echo "Installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
+echo "Installing common apps..."
+brew cask install --appdir="/Applications" ${common_apps[@]}
+
+echo "Installing personal apps..."
+brew cask install --appdir="~/Applications" ${personal_apps[@]}
 
 brew cleanup
 
