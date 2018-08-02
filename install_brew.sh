@@ -7,5 +7,8 @@ fi
 # Update homebrew recipes
 brew update
 
+# Install mas cli
+brew install mas
+
 # Cleanup
 brew cleanup
