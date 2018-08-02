@@ -22,7 +22,7 @@ cask "slack", args: { appdir: "~/Applications" }
 # Development
 #brew "ant"
 cask "fastlane"
-#cask "java" unless system "/usr/libexec/java_home --failfast"
+cask "java" unless system "/usr/libexec/java_home --failfast", args: { appdir: "~/Applications" }
 cask "jetbrains-toolbox", args: { appdir: "~/Applications" }
 cask "sourcetree", args: { appdir: "~/Applications" }
 cask "visual-studio-code", args: { appdir: "~/Applications" }
