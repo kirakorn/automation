@@ -20,6 +20,7 @@ cask "spotify"
 cask "slack", args: { appdir: "~/Applications" }
 
 # Development
+cask "adobe-creative-cloud"
 #brew "ant"
 cask "fastlane"
 cask "java" unless system "/usr/libexec/java_home --failfast"
